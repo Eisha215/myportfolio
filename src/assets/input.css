@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .progressbar{
+        @apply sm:w-full w-96 bg-gray-200 h-1.5 rounded-md; 
+    }
+    .progressbar2{
+        @apply sm:w-full bg-indigo-900 h-1.5 rounded-md mb-2; 
+    }
+    .card{
+        @apply shadow-2xl rounded-xl dark:bg-gray-100 p-5 md:w-3/4;
+    }
+    .helping-text{
+       @apply md:w-1/2 w-2/3 text-center text-gray-400;
+    }
+    .heading1{
+        @apply uppercase text-indigo-900 text-xl; 
+    }
+    .heading2{
+        @apply uppercase dark:text-gray-100; 
+    }
+}
+

@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7f7b6f90d4.js" crossorigin="anonymous"></script>
+  <title>Portfoio</title>
+  <link  rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="font-nunito dark">
+    <div class="h-[350px] lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+       <nav class="fixed w-screen top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="mx-12 py-5 flex justify-between">
+            <div class="logo flex items-center gap-2">
+                <img src="assets/images/logo.png" class="w-8 h-8">
+                <span class="font-bold text-xl text-indigo-900 dark:text-white">Portwind</span>
+            </div>
+            <div class="nav-links">
+                <ul class=" space-x-4 items-center hidden md:flex text-gray-600 dark:text-gray-100 uppercase font-bold text-sm">
+                    <li class="hover:text-gray-900"><a href="#home">Home</a> </li>
+                    <li class="hover:text-gray-900"><a href="#about">About</a> </li>
+                    <li class="hover:text-gray-900"><a href="#contact">Contact</a> </li>
+                    <li class="hover:text-gray-900"><a href="#services">Services</a> </li>
+                    <li class="hover:text-gray-900"><a href="#projects">Projects</a> </li>
+                </ul>
+            </div>            
+            <img src="assets/images/moon.png" class="w-8 h-8 hidden md:block cursor-pointer" id="moon">
+            <div class="humburger flex items-center md:hidden cursor-pointer z-40 " id="humburger">
+                <svg fill="#372e81" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+            <div class="nav-links hidden md:hidden bg-indigo-900 text-white w-full rounded-b-lg text-center absolute top-0 left-0 p-5 space-y-4" id="menu">
+                <ul class="  uppercase font-bold text-sm space-y-4">
+                    <li><a id="hLink" href="#home">Home</a> </li>
+                    <li><a id="hLink" href="#about">About</a> </li>
+                    <li><a id="hLink" href="#contact">Contact</a> </li>
+                    <li><a id="hLink" href="#services">Services</a> </li>
+                    <li><a id="hLink" href="#projets">Projects</a> </li>
+                </ul>
+            </div>   
+        </div>
+       </nav>
+       <section id="home" class="hero-section">
+        <img src="assets/images/man.png" class="absolute bottom-0 right-0 h-5/6 lg:left-0 mx-auto object-cover">
+        <div class="circle h-big w-big hidden lg:block mx-auto bg-indigo-900 rounded-full absolute -bottom-1/4 right-0 left-12 -z-10 "></div>
+        <div class="title absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 font-bold lg:left-10 xl:left-24 xl:text-7xl ">
+            <span class="text-gray-600">Freelance</span>
+            <p class="text-red-500 " id="text"> </p>
+        </div>
+        <div class="introduction shadow-lg rounded-lg absolute bottom-24 right-16 w-1/3 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-4 h-fit hidden lg:block">
+            <h2 class="text-indigo-900 text-2xl font-bold">Hi, I'm John,</h2>
+            <p class="text-gray-400">with over 10 years of experience on web design and development. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. N oumquam quo
+                provident, facere minus temporibus veniam nostrum reprehenderit nihil?</p>
+            <button class="text-white bg-blue-600 rounded-lg px-6 py-3 font-bold">Hire Me</button>
+        </div>
+       </section>
+
+    
+    </div>
+
+    <section id="about" class="about-me-section dark:bg-slate-900  px-16  relative py-24 md:py-32 flex flex-col-reverse items-center lg:flex-row gap-10">
+        <div class="left mt-16 lg:mt-0">
+            <img src="assets/images/dots.png" class="h-1/4 absolute left-16 top-44 -z-10 hidden lg:block">
+            <div class="user ">
+                <img src="assets/images/portrait.png" class="w-80 h-96 rounded-full mx-auto">
+            </div>
+        </div>
+        <div class="right flex flex-col my-auto  ">
+            <h2 class="text-indigo-900 uppercase font-bold text-sm heading1">About Me</h2>
+            <h2 class="text-2xl  font-semibold dark:text-gray-100 heading2">Better Design</h2>
+            <h2 class=" text-left helping-text">Better Experience</h2>
+            <p class="text-gray-400"> I design and build digital products. I'm also a multi-disciplinary
+                maker with over 10 years of experiences in wide range of design
+                disciplines.</p>
+            
+            <h2 class="text-gray-400 uppercase my-2">tailwindcss</h2>
+            <div class="progressbar"> 
+                <div class="progressbar2"></div>
+
+            </div>
+
+            <h2 class="text-gray-400 uppercase my-2">bootstrap</h2>
+            <div class="progressbar"> 
+                <div class=" progressbar2"></div>
+
+            </div>
+
+            <h2 class="text-gray-400 uppercase my-2">javascript</h2>
+            <div class="progressbar"> 
+                <div class=" progressbar2"></div>
+
+            </div>
+
+            <!-- <h2 class="text-gray-400 uppercase my-2">Adobe XD</h2>
+            <div class="w-full bg-gray-200 h-1.5 rounded-md"> 
+                <div class="w-3/5 bg-indigo-900 h-1.5 rounded-md mb-2"></div>
+
+            </div> -->
+
+            <h2 class="text-gray-400 uppercase my-2">Figma</h2>
+            <div class="progressbar"> 
+                <div class="progressbar2"></div>
+
+            </div>
+            <h2 class="text-gray-400 uppercase my-2">Adobe Illustrator</h2>
+            <div class=" progressbar"> 
+                <div class="progressbar2"></div>
+
+            </div>
+        </div>
+       </section>
+
+       <section id="services" class="services py-24 dark:bg-slate-900">
+        <div class="flex flex-col items-center">
+            <h2 class="heading1">services</h2> 
+            <h2 class="heading2">what do i offer?</h2>
+            <p class=" helping-text"> My approach to website design is to create a website that
+                strengthens your company’s brand while ensuring ease of use and
+                simplicity for your audience.</p>
+
+        </div>
+       <div class="grid lg:grid-cols-3 sm:grid-cols-2 content-center w-5/6 lg:mx-44 mx-auto mt-20 gap-12">
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900 ">Read More</button>
+        </div>
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900">Read More</button>
+        </div>
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900">Read More</button>
+        </div>
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900">Read More</button>
+        </div>
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900">Read More</button>
+        </div>
+        <div class="card ">
+            <img src="assets/images/icon.png" class="w-16 h-16 mb-3">
+            <h1>UX/UI Design</h1>
+            <p>  I specialize in creating interactive websites for individuals and
+                small businesses.</p>
+                <button class="text-indigo-900">Read More</button>
+        </div>
+       </div>
+       </section>
+
+       <section id="projects" class="portfolio py-24 dark:bg-slate-900">
+        <div class="flex flex-col items-center">
+            <h2 class=" heading1">portfolio</h2> 
+            <h2 class=" heading2">works and projects</h2>
+            <p class=" helping-text">      I help designers, small agencies and businesses bring their ideas to
+                life. Powered by Figma, VS Code and coffee, I turn your requirements
+                into a well-designed websites</p>
+
+        </div>
+       <div class="grid lg:grid-cols-4 sm:grid-cols-2 content-center w-5/6 lg:mx-44 mx-auto mt-20 gap-12">
+        <div class="card ">
+            <img src="assets/images/item.png">
+            
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+        <div class="card ">
+            <img src="assets/images/item.png">
+        </div>
+       </div>
+       </section>
+
+       <section id="contact" class="contact px-16 dark:bg-slate-900">
+        <div class="flex flex-col items-center ">
+            <h2 class=" heading1">contact</h2> 
+            <h2 class=" heading2">have a question?</h2>
+            <p class=" helping-text">Do you have an idea? Let's discuss it and see what we can do
+                together.</p>
+
+        </div>
+        <form class="flex flex-col items-center gap-5 p-5 m-5">
+            <input type="text" class="p-2 w-full  md:w-1/2 ring-1 ring-indigo-300 rounded-sm  dark:bg-slate-800 dark:ring-0 dark:text-gray-100" placeholder="Your Name">
+            <input type="email" class="p-2 w-full  md:w-1/2  ring-1 ring-indigo-300 rounded-sm  dark:bg-slate-800 dark:ring-0 dark:text-gray-100" placeholder="Email">
+            <textarea  cols="30" rows="10" class="ring-1 p-2 md:w-1/2 w-full ring-indigo-300 rounded-sm dark:bg-slate-800 dark:ring-0 dark:text-gray-100" placeholder="Message"></textarea>
+            <button class="w-1/2  bg-indigo-600 rounded-md p-4 my-3 font-medium text-white">Send</button>
+
+        </form>
+       </section>
+
+       <footer>
+        <div class="w-screen bg-gray-800">
+            <div class="mx-12 py-5 flex justify-between">
+                <div class="logo flex items-center gap-2">
+                    <img src="assets/images/logo.png" class="w-8 h-8">
+                    <span class="font-bold text-xl text-indigo-900">Portwind</span>
+                </div>
+             <span class="hidden md:flex gap-3 items-center font-medium text-white "><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg> 2023 Portwind Designed with <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg> by Eisha Sajid</span>           
+                <div class="social-icons flex gap-5 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                </div>
+                 
+            </div>
+        </div>
+       </footer>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+
+</body>
+</html>
