@@ -8,7 +8,7 @@ module.exports = {
         "sm" : "480px"
       },
       spacing: {
-        "big" : "28rem"
+        "big" : "38rem",
       }
     },
     fontFamily: {
