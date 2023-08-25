@@ -811,12 +811,12 @@ video {
   flex-direction: column-reverse;
 }
 
-.content-center{
-  align-content: center;
-}
-
 .items-center{
   align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .justify-between{
@@ -829,10 +829,6 @@ video {
 
 .gap-2{
   gap: 0.5rem;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-24{
@@ -1116,6 +1112,14 @@ video {
     margin-right: 6rem;
   }
 
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
+  .sm\:justify-between{
+    justify-content: space-between;
+  }
+
   .sm\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1135,10 +1139,6 @@ video {
 @media (min-width: 768px){
   .md\:left-1\/4{
     left: 25%;
-  }
-
-  .md\:ml-24{
-    margin-left: 6rem;
   }
 
   .md\:block{
